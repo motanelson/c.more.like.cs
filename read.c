@@ -1,6 +1,6 @@
 #include "System.h"
 
-int main() {
+void Main() {
     string ss="Press a key to exit ? ";
     Console_BackgroundColor(Yellow);
     Console_ForegroundColor(Black);
@@ -10,5 +10,4 @@ int main() {
     Console_WriteLine(ToString(i));    
         
         
-    return 0;
 }
