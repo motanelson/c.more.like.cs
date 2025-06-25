@@ -1,11 +1,11 @@
 #include "System.h"
 
-int main() {
+void Main() {
     String s="Hello World..."  ;
     Console_BackgroundColor(Yellow);
     Console_ForegroundColor(Black);
     Console_WriteLine(s);    
     Console_Beep();    
         
-    return 0;
+    
 }
