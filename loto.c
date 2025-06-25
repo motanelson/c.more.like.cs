@@ -1,5 +1,4 @@
 #include "System.h"
-void Main();
 void Main() {
     int i=0;
     int ii=0;
