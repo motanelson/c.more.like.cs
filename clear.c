@@ -1,6 +1,6 @@
 #include "System.h"
 
-int main() {
+void Main() {
     String s="Hello World..."  ;
     Console_BackgroundColor(Yellow);
     Console_ForegroundColor(Black);
@@ -8,5 +8,5 @@ int main() {
     Console_WriteLine(s);    
         
         
-    return 0;
+   
 }
