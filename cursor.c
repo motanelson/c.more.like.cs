@@ -1,6 +1,6 @@
 #include "System.h"
 
-int main() {
+void Main() {
     int i=0;
     Console_BackgroundColor(Yellow);
     Console_ForegroundColor(Black);
@@ -10,5 +10,4 @@ int main() {
         Console_Write(ToString(i));    
     }
         
-    return 0;
 }
