@@ -1,6 +1,6 @@
 #include "System.h"
 
-int main() {
+void Main() {
     string ss="Give me you name ? ";
     Console_BackgroundColor(Yellow);
     Console_ForegroundColor(Black);
@@ -10,5 +10,5 @@ int main() {
     Console_WriteLine(s);    
     free(s);    
         
-    return 0;
+    
 }
