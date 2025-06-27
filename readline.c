@@ -8,7 +8,7 @@ void Main() {
     Console_WriteLine(ss);
     String s=Console_ReadLine()  ;
     Console_WriteLine(s);    
-    free(s);    
+        
         
     
 }
