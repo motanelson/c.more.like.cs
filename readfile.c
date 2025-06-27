@@ -5,7 +5,7 @@ void Main() {
     Console_BackgroundColor(Yellow);
     Console_ForegroundColor(Black);
     Console_WriteLine(s);    
-    free(s);   
+       
         
     
 }
